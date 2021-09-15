@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+ <!-- <h1 id="heading"> hello daler</h1>
+<button onclick="document.getElementById('heading').innerHTML=' <i>hi</i>'"> change text </button>
+
+
+<button onclick="document.getElementById('heading').innerText='hello daler'"> text </button>
+
+
+<button onclick="document.getElementById('heading').style.fontSize='50'"> 
+    change style
+
+    
+</button>
+<br>
+
+<button onclick="document.getElementById('image').src='./pic_bulbon.gif'"> on</button>
+<img id="image" src="./pic_bulboff.gif" alt="">
+<button onclick="document.getElementById('image').src='./pic_bulboff.gif'">of</button> -->
+
+
+  
+  <div class="row">
+    <div class="column">
+     
+      <img src="./training-image-01.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./training-image-02.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./training-image-03.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./training-image-04.jpg" alt="" style="width:100%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+  
+
+    <script src="index.js"></script>
+</body>
+</html>
